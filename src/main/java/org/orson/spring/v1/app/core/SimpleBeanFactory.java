@@ -81,10 +81,8 @@ public class SimpleBeanFactory implements BeanFactory{
             this.loadBeanDefinition(resource);
         }
 
-
         //registry bean
         this.initializeBean();
-
     }
 
     /**

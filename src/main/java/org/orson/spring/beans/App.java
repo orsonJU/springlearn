@@ -14,12 +14,9 @@ public class App {
 
         PropertyDescriptor[] pds = beanInfo.getPropertyDescriptors();
 
-
-        Person person = new Person();
         for(PropertyDescriptor pd : pds) {
             String name = pd.getName();
             System.out.println(name);
         }
-
     }
 }
