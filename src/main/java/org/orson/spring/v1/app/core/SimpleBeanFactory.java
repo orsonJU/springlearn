@@ -1,18 +1,15 @@
 package org.orson.spring.v1.app.core;
 
-import org.dom4j.Attribute;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
 import org.orson.spring.v1.app.bean.BeanDefinition;
 import org.orson.spring.v1.app.bean.PropertyValue;
-import org.orson.spring.v1.app.reader.XMLBeanDefinitionReader;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.Field;
-import java.net.HttpRetryException;
 import java.util.*;
 
 /**
